@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">UCCITMOBILEAPP</string>
+    <string name="ucc_social_media">UCC Social Media</string>
+    <string name="admission_link">
+        <a href="https://www.ucc.edu.jm/programmes/tm/bsc-in-information-technology">
+            https://www.ucc.edu.jm/programmes/tm/bsc-in-information-technology
+        </a>
+    </string>
+    <string name="admission_title">
+        <h2>ENTRY REQUIREMENTS FOR JAMAICAN STUDENTS</h2>
+    </string>
+
+    <string name="admission_info">
+
+            To be unconditionally admitted to complete UCC undergraduate programmes,
+            individuals should possess a minimum of five (5) subjects at the GCE or
+            CSEC level (including the mandatory English Language and Mathematics) at grades
+            A, B, C or 1, 2, 3 respectively. A CSEC pass at level 3 must have been obtained since
+            1998.
+
+
+
+
+            Candidates who have a minimum of 4 CXCs can also apply pending the outstanding CXC
+            subjects or can opt to do UCC replacement courses Core Mathematics, English for
+            Academic Purpose and Fundamentals of Accounting.
+
+
+            Candidates can opt to apply under the Mature Entry option. To be accepted, applicants must
+            be working for 5 years or more and be at a minimum age of 25 years. Academic qualifications,
+            a detailed resume, a job letter and 3 professional references will be required.
+
+    </string>
+</resources>

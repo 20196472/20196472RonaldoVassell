@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Courses"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courses_view"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Courses"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+<!--    <GridLayout-->
+<!--        android:id="@+id/courses_grid"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/title_view"-->
+<!--        android:rowCount="3"-->
+<!--        android:columnCount="2"-->
+<!--        android:layout_margin="20dp">-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/course_layout"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_gravity="center_vertical|center_horizontal">-->
+<!--        </LinearLayout>-->
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/course_return_home_button"-->
+<!--            android:text="Return Home" />-->
+
+<!--    </GridLayout>-->
+
+
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp"-->
+<!--    tools:context=".Courses">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/Courses_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Courses"-->
+<!--        android:textSize="24sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/courses_data"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        android:textSize="24sp" />-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/return_home_button"-->
+<!--        android:text="Return Home" />-->
+
+<!--</LinearLayout>-->

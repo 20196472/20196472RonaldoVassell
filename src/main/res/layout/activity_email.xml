@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Email">
+
+    <TextView
+        android:id="@+id/insert_books_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact HOD"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/email_subject_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Subject"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email_body_input"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:hint="Email Body"
+        android:inputType="text" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_email_button"
+        android:text="Send Email" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/return_home_button"
+        android:text="Return Home" />
+
+</LinearLayout>
